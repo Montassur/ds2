@@ -30,7 +30,7 @@ if(count($_POST) >= 5){
         //execution de la requete
         if(mysqli_query($conn,$sql)){
             $isSuccess = true;
-            $message = "User creat please visit our <a href='/login.html'> login</a> page to connect";
+            $message = "User creat please visit our <a href='login.html'> login</a> page to connect";
         }
         else{
             $hasError = true;
